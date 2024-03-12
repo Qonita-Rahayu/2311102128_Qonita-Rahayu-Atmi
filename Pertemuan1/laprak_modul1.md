@@ -1,5 +1,5 @@
 # <h1 align="center">Laporan Praktikum Modul Tipe Data</h1>
-<p align="center">Qonita Rahayu Atmi-2311102128</p>
+<h2 align="center">Qonita Rahayu Atmi-2311102128</h2>
 
 ## Dasar Teori
 
@@ -149,7 +149,7 @@ Pada kode array di atas digunakan untuk menampung sebuah data nilai dengan jumla
 
 ## Unguided 
 
-### 1. [SoBuatlah program menggunakan tipe data primitif minimal dua fungsi dan bebas. Menampilkan program, jelaskan program tersebut dan ambil kesimpulan dari materi tipe data primitif!]
+### 1. [Buatlah program menggunakan tipe data primitif minimal dua fungsi dan bebas. Menampilkan program, jelaskan program tersebut dan ambil kesimpulan dari materi tipe data primitif!]
 
 ```C++
 #include <iostream>
