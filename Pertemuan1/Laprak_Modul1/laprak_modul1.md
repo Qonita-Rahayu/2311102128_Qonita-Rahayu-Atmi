@@ -219,7 +219,7 @@ int main() {
 - Tipe data primitif merupakan tipe data yang digunakan untuk mengelempokan atau mengelola data dalam sebuah variabel yang lebih besar dan membuat parameter untuk setiap data yang dikelola.
 
 #### Full code Screenshot:
-![full code ss unguided 1](https://github.com/Qonita-Rahayu/2311102128_Qonita-Rahayu-Atmi/blob/main/Pertemuan1/output/fullss_code_unguided1.png)
+![full code ss unguided 1](output/fullss_code_unguided1.png)
 
 ### 2. [Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya]
 
@@ -272,7 +272,7 @@ int main()
 }
 ```
 #### Output:
-![output unguided 2](https://github.com/Qonita-Rahayu/2311102128_Qonita-Rahayu-Atmi/blob/main/Pertemuan1/output/output_guided2.png)
+![output unguided 2](output_guided2.png)
 
 => Penjelasan program
 - Kode di atas terdapat class dan struct yang dimana akan menampung data dengan tipe data yang berbeda menjadi satu wadah. Pada kode diatas kita juga menginputkan karyawan dan siswa dengan tipe data yang berbeda, selanjutnya menampilkan data pada struct dan kelas dengan cara memanggil nama class dan struct dan di ikuti nama variabelnya.
@@ -284,7 +284,7 @@ int main()
 - Fungsi struct dalam C++ adalah untuk mengelompokkan data dari tipe data yang berbeda. Struct digunakan apabila data yang akan dikelompokkan mempunyai tipe data yang berbeda. Struct juga dapat digunakan sebagai tipe data dalam deklarasi fungsi, memungkinkan fungsi  menerima parameter dalam bentuk struct.
 
 #### Full code Screenshot:
-![full code ss unguided 2](https://github.com/Qonita-Rahayu/2311102128_Qonita-Rahayu-Atmi/blob/main/Pertemuan1/output/fullss_code_unguided2.png)
+![full code ss unguided 2](output/fullss_code_unguided2.png)
 
 ### 3. [Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map.]
 
@@ -330,7 +330,7 @@ int main()
 }
 ```
 #### Output:
-![output unguided 3](https://github.com/Qonita-Rahayu/2311102128_Qonita-Rahayu-Atmi/blob/main/Pertemuan1/output/output_guided3.png)
+![output unguided 3](output_guided3.png)
 
 => Penjelasan program
 - Kode di atas digunakan untuk menampung sebuah data pada wadah secara berurutan pada array dan map. Pada array akan menyimpan data tersebut sesuai dengan index yang dimulai dengan nol sampai dengan jumlah data, sedangkan pada map data akan ditampung dengan key dan value. Pada saat menampilkan data pada array kita bisa menggunakan perulangan atau memanggilnya dengan urutan index dan pada map kita menggunakan key untuk menampilkan value.
@@ -348,7 +348,7 @@ int main()
 - Array tidak dapat diubah, namun map tetap demikian.
 
 #### Full code Screenshot:
-![full code ss unguided 3](https://github.com/Qonita-Rahayu/2311102128_Qonita-Rahayu-Atmi/blob/main/Pertemuan1/output/fullss_code_unguided3.png)
+![full code ss unguided 3](output/fullss_code_unguided3.png)
 
 ## Kesimpulan
 Dari materi tipe data tersebut, dapat disimpulkan tipe data primitif adalah tipe data  yang hanya dapat menyimpan satu nilai di setiap  variabel, tipe data primitif terdapat int, float, char, dan bool. Tipe data abstrak adalah kumpulan beberapa objek yang memuat beberapa operasi dan memiliki fungsi yaitu untuk merepresentasikan kumpulan data yang bermasalah dan memiliki fitur class dan struct. Kemudian, tipe data koleksi adalah tipe data yang berupa rangkaian atau kumpulan data ataupun obyek yang berindeks.
