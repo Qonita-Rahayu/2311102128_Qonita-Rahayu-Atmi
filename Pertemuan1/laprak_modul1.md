@@ -3,7 +3,7 @@
 
 ## Dasar Teori
 
-Tipe data adalah tipe data yang  disimpan  dalam  variabel. Tipe data menentukan bagaimana informasi disimpan, direpresentasikan, dan  diinterpretasikan. Tipe data berhubungan erat dengan memori  variabel karena tipe data variabel menentukan bagaimana kompiler mengisi memori. Tipe data juga menentukan  operasi dan operator mana yang dapat dilakukan dan digunakan pada variabel  yang dibentuk berdasarkan tipe data yang digunakan pada  pemrograman C++. Tipe data adalah bentuk penggabungan jenis data sesuai dengan kategori data, ukuran dan kegunaan data yang dapat ditampung oleh sebuah variabel. (Rolly Yesputra, 2017)
+Tipe data adalah tipe data yang  disimpan  dalam  variabel. Tipe data menentukan bagaimana informasi disimpan, direpresentasikan, dan  diinterpretasikan. Tipe data berhubungan erat dengan memori  variabel karena tipe data variabel menentukan bagaimana kompiler mengisi memori. Tipe data juga menentukan  operasi dan operator mana yang dapat dilakukan dan digunakan pada variabel  yang dibentuk berdasarkan tipe data yang digunakan pada  pemrograman C++. Tipe data adalah bentuk penggabungan jenis data sesuai dengan kategori data, ukuran dan kegunaan data yang dapat ditampung oleh sebuah variabel. 
 
 1. Tipe Data Primitif
 Tipe data primitif adalah tipe data  yang hanya dapat menyimpan satu nilai di setiap  variabel. Tipe data  ini  merupakan tipe data dasar yang biasa digunakan pada program . Dimana  tipe  data  ini  memiliki fungsi dan ukuran  memori  yang tetap dan pasti, diantaranya:
