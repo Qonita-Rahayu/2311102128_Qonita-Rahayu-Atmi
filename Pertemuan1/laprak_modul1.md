@@ -77,7 +77,7 @@ int main()
 }
 ```
 => Penjelasan program
-Kode di atas adalah kode untuk perhitungan matematika (+, -, *, /) yang dimana kita menggunakan tipe data char untuk menampung simbol dan integer untuk menampung nilai angka. Kode akan berjalan sesuai dengan simbol yang di inputkan
+- Kode di atas adalah kode untuk perhitungan matematika (+, -, *, /) yang dimana kita menggunakan tipe data char untuk menampung simbol dan integer untuk menampung nilai angka. Kode akan berjalan sesuai dengan simbol yang di inputkan
 (+, -, *, /) akan mengeksekusi angka inputan pertama dan kedua terkecuali pada pembagian tidak boleh berinputan nol.
 
 ### 2. [Tipe data abstrak]
