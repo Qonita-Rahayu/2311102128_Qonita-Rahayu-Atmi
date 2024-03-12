@@ -219,7 +219,7 @@ int main() {
 - Tipe data primitif merupakan tipe data yang digunakan untuk mengelempokan atau mengelola data dalam sebuah variabel yang lebih besar dan membuat parameter untuk setiap data yang dikelola.
 
 #### Full code Screenshot:
-![full code ss unguided 1](output/fullss_code_unguided1.png)
+![full code ss unguided 1](fullss_code_unguided1.png)
 
 ### 2. [Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya]
 
@@ -284,7 +284,7 @@ int main()
 - Fungsi struct dalam C++ adalah untuk mengelompokkan data dari tipe data yang berbeda. Struct digunakan apabila data yang akan dikelompokkan mempunyai tipe data yang berbeda. Struct juga dapat digunakan sebagai tipe data dalam deklarasi fungsi, memungkinkan fungsi  menerima parameter dalam bentuk struct.
 
 #### Full code Screenshot:
-![full code ss unguided 2](output/fullss_code_unguided2.png)
+![full code ss unguided 2](fullss_code_unguided2.png)
 
 ### 3. [Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map.]
 
@@ -348,11 +348,12 @@ int main()
 - Array tidak dapat diubah, namun map tetap demikian.
 
 #### Full code Screenshot:
-![full code ss unguided 3](output/fullss_code_unguided3.png)
+![full code ss unguided 3](fullss_code_unguided3.png)
 
 ## Kesimpulan
 Dari materi tipe data tersebut, dapat disimpulkan tipe data primitif adalah tipe data  yang hanya dapat menyimpan satu nilai di setiap  variabel, tipe data primitif terdapat int, float, char, dan bool. Tipe data abstrak adalah kumpulan beberapa objek yang memuat beberapa operasi dan memiliki fungsi yaitu untuk merepresentasikan kumpulan data yang bermasalah dan memiliki fitur class dan struct. Kemudian, tipe data koleksi adalah tipe data yang berupa rangkaian atau kumpulan data ataupun obyek yang berindeks.
 
 ## Referensi
 [1] Shofwan Hanief, I Wayan Jepriana, Konsep Algoritma dan Aplikasinya dalam Bahasa Pemrograman C++. Yogyakarta: 2020.
+
 [2] Yeyi Gusla Nengsih, Jamaludin, Konsep Algoritma dan Pemrograman. Bandung: 2022.
