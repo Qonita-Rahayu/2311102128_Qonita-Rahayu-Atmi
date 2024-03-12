@@ -1,5 +1,5 @@
 # <h1 align="center">Laporan Praktikum Modul Tipe Data</h1>
-<p align="center">Qonita Rahayu Atmi</p>
+<p align="center">Qonita Rahayu Atmi-2311102128</p>
 
 ## Dasar Teori
 
