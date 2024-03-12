@@ -210,7 +210,7 @@ int main() {
 }
 ```
 #### Output:
-![output unguided 1](https://github.com/Qonita-Rahayu/2311102128_Qonita-Rahayu-Atmi/blob/main/Pertemuan1/output/output_guided1.png)
+![output unguided 1](output_guided1.png)
 
 => Penjelasan program
 - Kode di atas digunakan untuk melakukan operasi bilangan penjumlahan,pengurangan,perkalian,dan pembagian menggunakan tipe data primitif berupa integer dan untuk menginputkan operator simbol menggunakan tipe data char. Kode diatas memerintahkan kita untuk menginputkan angka pertama dan angka kedua. Setelah itu kita menginputkan simbol operasi bilangan untuk mengesekusi angka satu dan kedua dan hasilnya akan ditampilkan sesuai dengan simbol yang kita inputkan.
