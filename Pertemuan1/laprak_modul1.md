@@ -117,7 +117,7 @@ int main()
 }
 ```
 => Penjelasan program
-Kode di atas terdapat wadah data berupa struct untuk menampung beberapa tipe data yang berbeda. Menambahkan data kedalam struct dengan cara memanggil nama struct dan membuat variabel, selanjutnya di ikuti dengan nama variabel dan nama variabel data mahasiswa. Kemudian mencetak isi data struct menggunakan nama variabel di ikuti variabel mahasiswa.
+- Kode di atas terdapat wadah data berupa struct untuk menampung beberapa tipe data yang berbeda. Menambahkan data kedalam struct dengan cara memanggil nama struct dan membuat variabel, selanjutnya di ikuti dengan nama variabel dan nama variabel data mahasiswa. Kemudian mencetak isi data struct menggunakan nama variabel di ikuti variabel mahasiswa.
 
 ### 3. [Tipe data koleksi]
 
@@ -145,7 +145,7 @@ int main()
 }
 ```
 => Penjelasan program
-Pada kode array di atas digunakan untuk menampung sebuah data nilai dengan jumlah lima dan cara menampilkannya yaitu dengan cara memanggil nama array di ikuti urutan indexnya.
+- Pada kode array di atas digunakan untuk menampung sebuah data nilai dengan jumlah lima dan cara menampilkannya yaitu dengan cara memanggil nama array di ikuti urutan indexnya.
 
 ## Unguided 
 
@@ -213,10 +213,10 @@ int main() {
 ![output unguided 1](https://github.com/Qonita-Rahayu/2311102128_Qonita-Rahayu-Atmi/blob/main/Pertemuan1/output/output_guided1.png)
 
 => Penjelasan program
-Kode di atas digunakan untuk melakukan operasi bilangan penjumlahan,pengurangan,perkalian,dan pembagian menggunakan tipe data primitif berupa integer dan untuk menginputkan operator simbol menggunakan tipe data char. Kode diatas memerintahkan kita untuk menginputkan angka pertama dan angka kedua. Setelah itu kita menginputkan simbol operasi bilangan untuk mengesekusi angka satu dan kedua dan hasilnya akan ditampilkan sesuai dengan simbol yang kita inputkan.
+- Kode di atas digunakan untuk melakukan operasi bilangan penjumlahan,pengurangan,perkalian,dan pembagian menggunakan tipe data primitif berupa integer dan untuk menginputkan operator simbol menggunakan tipe data char. Kode diatas memerintahkan kita untuk menginputkan angka pertama dan angka kedua. Setelah itu kita menginputkan simbol operasi bilangan untuk mengesekusi angka satu dan kedua dan hasilnya akan ditampilkan sesuai dengan simbol yang kita inputkan.
 
 => Kesimpulan tipe data primitif
-Tipe data primitif merupakan tipe data yang digunakan untuk mengelempokan atau mengelola data dalam sebuah variabel yang lebih besar dan membuat parameter untuk setiap data yang dikelola.
+- Tipe data primitif merupakan tipe data yang digunakan untuk mengelempokan atau mengelola data dalam sebuah variabel yang lebih besar dan membuat parameter untuk setiap data yang dikelola.
 
 #### Full code Screenshot:
 ![full code ss unguided 1](https://github.com/Qonita-Rahayu/2311102128_Qonita-Rahayu-Atmi/blob/main/Pertemuan1/output/fullss_code_unguided1.png)
@@ -275,14 +275,13 @@ int main()
 ![output unguided 2](https://github.com/Qonita-Rahayu/2311102128_Qonita-Rahayu-Atmi/blob/main/Pertemuan1/output/output_guided2.png)
 
 => Penjelasan program
-Kode di atas terdapat class dan struct yang dimana akan menampung data dengan tipe data yang berbeda menjadi satu wadah. 
-Pada kode diatas kita juga menginputkan karyawan dan siswa dengan tipe data yang berbeda, selanjutnya menampilkan data pada struct dan kelas dengan cara memanggil nama class dan struct dan di ikuti nama variabelnya.
+- Kode di atas terdapat class dan struct yang dimana akan menampung data dengan tipe data yang berbeda menjadi satu wadah. Pada kode diatas kita juga menginputkan karyawan dan siswa dengan tipe data yang berbeda, selanjutnya menampilkan data pada struct dan kelas dengan cara memanggil nama class dan struct dan di ikuti nama variabelnya.
 
 => Fungsi dari class
-Class adalah konsep OPP (Object Oriented Programming) yang digunakan untuk mengelompokkan data dan fungsi yang berkaitan dengan suatu tipe data dan untuk membungkus data abstrak. Fungsi dari class dalam C++ adalah untuk menentukan jenis data yang akan digunakan dalam program dan untuk mendefinisikan atau menggambarkan isi dari object.
+- Class adalah konsep OPP (Object Oriented Programming) yang digunakan untuk mengelompokkan data dan fungsi yang berkaitan dengan suatu tipe data dan untuk membungkus data abstrak. Fungsi dari class dalam C++ adalah untuk menentukan jenis data yang akan digunakan dalam program dan untuk mendefinisikan atau menggambarkan isi dari object.
 
 => Fungsi dari struct
-Fungsi struct dalam C++ adalah untuk mengelompokkan data dari tipe data yang berbeda. Struct digunakan apabila data yang akan dikelompokkan mempunyai tipe data yang berbeda. Struct juga dapat digunakan sebagai tipe data dalam deklarasi fungsi, memungkinkan fungsi  menerima parameter dalam bentuk struct.
+- Fungsi struct dalam C++ adalah untuk mengelompokkan data dari tipe data yang berbeda. Struct digunakan apabila data yang akan dikelompokkan mempunyai tipe data yang berbeda. Struct juga dapat digunakan sebagai tipe data dalam deklarasi fungsi, memungkinkan fungsi  menerima parameter dalam bentuk struct.
 
 #### Full code Screenshot:
 ![full code ss unguided 2](https://github.com/Qonita-Rahayu/2311102128_Qonita-Rahayu-Atmi/blob/main/Pertemuan1/output/fullss_code_unguided2.png)
@@ -334,13 +333,13 @@ int main()
 ![output unguided 3](https://github.com/Qonita-Rahayu/2311102128_Qonita-Rahayu-Atmi/blob/main/Pertemuan1/output/output_guided3.png)
 
 => Penjelasan program
-Kode di atas digunakan untuk menampung sebuah data pada wadah secara berurutan pada array dan map. Pada array akan menyimpan data tersebut sesuai dengan index yang dimulai dengan nol sampai dengan jumlah data, sedangkan pada map data akan ditampung dengan key dan value. Pada saat menampilkan data pada array kita bisa menggunakan perulangan atau memanggilnya dengan urutan index dan pada map kita menggunakan key untuk menampilkan value.
+- Kode di atas digunakan untuk menampung sebuah data pada wadah secara berurutan pada array dan map. Pada array akan menyimpan data tersebut sesuai dengan index yang dimulai dengan nol sampai dengan jumlah data, sedangkan pada map data akan ditampung dengan key dan value. Pada saat menampilkan data pada array kita bisa menggunakan perulangan atau memanggilnya dengan urutan index dan pada map kita menggunakan key untuk menampilkan value.
 
 => Penjelasan array
-Array adalah kumpulan objek bertipe sama yang menempati area memori yang berdekatan. Array di C++ adalah kumpulan data dengan indeks yang berurutan. Setiap elemen dalam array memiliki indeks yang berurutan, dan dapat mengakses melalui indeks. Ukuran array bersifat tetap dan tidak dapat diubah.
+- Array adalah kumpulan objek bertipe sama yang menempati area memori yang berdekatan. Array di C++ adalah kumpulan data dengan indeks yang berurutan. Setiap elemen dalam array memiliki indeks yang berurutan, dan dapat mengakses melalui indeks. Ukuran array bersifat tetap dan tidak dapat diubah.
 
 => Penjelasan map
-Map adalah kumpulan data dengan key dan value  berurutan. Map di C++ adalah kumpulan data dengan key  dan value yang disimpan dalam bentuk pasangan key-value pair. Map memiliki ukuran yang dinamis dan dapat berubah. Map dapat digunakan untuk menyimpan berbagai jenis data  dan memiliki key yang unik.
+- Map adalah kumpulan data dengan key dan value  berurutan. Map di C++ adalah kumpulan data dengan key  dan value yang disimpan dalam bentuk pasangan key-value pair. Map memiliki ukuran yang dinamis dan dapat berubah. Map dapat digunakan untuk menyimpan berbagai jenis data  dan memiliki key yang unik.
 
 => Perbedaan array dan map
 -Array hanya dapat menyimpan data dengan tipe yang sama, sedangkan map dapat menyimpan data dengan tipe berbeda.
