@@ -342,10 +342,10 @@ int main()
 - Map adalah kumpulan data dengan key dan value  berurutan. Map di C++ adalah kumpulan data dengan key  dan value yang disimpan dalam bentuk pasangan key-value pair. Map memiliki ukuran yang dinamis dan dapat berubah. Map dapat digunakan untuk menyimpan berbagai jenis data  dan memiliki key yang unik.
 
 => Perbedaan array dan map
--Array hanya dapat menyimpan data dengan tipe yang sama, sedangkan map dapat menyimpan data dengan tipe berbeda.
--Array memiliki indeks yang berurutan, tetapi map memiliki kunci  unik.
--Array memiliki ukuran  tetap, namun map memiliki ukuran  dinamis.
--Array tidak dapat diubah, namun map tetap demikian.
+- Array hanya dapat menyimpan data dengan tipe yang sama, sedangkan map dapat menyimpan data dengan tipe berbeda.
+- Array memiliki indeks yang berurutan, tetapi map memiliki kunci  unik.
+- Array memiliki ukuran  tetap, namun map memiliki ukuran  dinamis.
+- Array tidak dapat diubah, namun map tetap demikian.
 
 #### Full code Screenshot:
 ![full code ss unguided 3](https://github.com/Qonita-Rahayu/2311102128_Qonita-Rahayu-Atmi/blob/main/Pertemuan1/output/fullss_code_unguided3.png)
