@@ -325,7 +325,7 @@ int main()
 
 ## Kesimpulan
 
-Dari materi array tesebut saya dapat menyimpulkan array adalah suatu kumpulan variabel dengan tipe data yang sama yang diakses menggunakan satu nama. Dan array terdapat banyak macam yaitu array satu dimensi adalah array yang penunjuk indexnya hanya satu, arrray dua dimensi adalah  array yang setiap elemennya bertipe array (satu dimensi) , array tiga dimensi adalah array yang terdiri dari tiga dimensi, dan array multidimensi adalah array yang elemennya memiliki nilai lebih dari satu. Array multidimensi yang terdiri dari beberapa subskrip.. 
+Dari materi array tesebut saya dapat menyimpulkan array adalah suatu kumpulan variabel dengan tipe data yang sama yang diakses menggunakan satu nama. Dan array terdapat banyak macam yaitu array satu dimensi adalah array yang penunjuk indexnya hanya satu, arrray dua dimensi adalah  array yang setiap elemennya bertipe array (satu dimensi) , array tiga dimensi adalah array yang terdiri dari tiga dimensi, dan array multidimensi adalah array yang elemennya memiliki nilai lebih dari satu. Array multidimensi yang terdiri dari beberapa subskrip. 
 
 ## Referensi
 [1] Budi Raharjo, Kursus Mandiri C++ Menjadi Programmer C++ dalam 5 Tahap. Bandung: 2021.
