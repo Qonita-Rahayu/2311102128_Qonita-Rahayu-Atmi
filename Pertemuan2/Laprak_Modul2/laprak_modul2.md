@@ -225,7 +225,7 @@ int main()
 }
 ```
 #### Output:
-![output unguided 2](output_uguided2.png)
+![output unguided 2](output_unguided2.png)
 
 => Penjelasan program
 - Kode di atas adalah program di atas menginputkan data array 3 dimensi, mengoutputkan data array 3 dimesnsi, dan menampilkan data array 3 dimensi. Pertama,menginputkan jumlah elemen arraz 3 dimensi. kedua, program menginputkan data array 3 dimensi menggunakan loop tiga kali untuk setiap dimensi array. Kemudian, program mengoutputkan data array 3 dimensi menggunakan loop tiga kali untuk setiap dimensi array. Terakhir, program menampilkan data array 3 dimensi dalam format tabel menggunakan loop tiga kali untuk setiap dimensi array.
