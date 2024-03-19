@@ -329,4 +329,3 @@ Dari materi array tesebut saya dapat menyimpulkan array adalah suatu kumpulan va
 
 ## Referensi
 [1] Budi Raharjo, Kursus Mandiri C++ Menjadi Programmer C++ dalam 5 Tahap. Bandung: 2021.
-
