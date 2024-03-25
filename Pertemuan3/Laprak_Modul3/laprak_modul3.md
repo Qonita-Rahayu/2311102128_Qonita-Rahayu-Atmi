@@ -501,7 +501,7 @@ saat pengguna memilih 6 untuk keluar.
 ## Unguided
 
 ### 1. [Buatlah program menu Single Linked List Non-Circular untuk menyimpan Nama dan usia mahasiswa, dengan menggunakan inputan dari user. Lakukan operasi berikut:]
-![soal1](oal_unguided1.png)
+![soal1](soal_unguided1.png)
 
 ```C++
 #include <iostream>
