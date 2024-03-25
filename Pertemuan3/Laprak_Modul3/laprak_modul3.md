@@ -1220,7 +1220,7 @@ terdapat menambahkan data, menghapus data, mengupdate data, menambahkan data di 
 
 ## Kesimpulan
 
-Dari materi array tesebut saya dapat menyimpulkan linked list merupakan jenis-jenis data berisi kelompok-kelompok data yang disusun secara linear. Dan semua data disimpan dalam satu node yang tersimpan antara satu node dengan node yang lainnya. Dan linked list memiliki dua macam jenis yaitu single linked list dan double linked list. Single linked list adalah daftar yang dihubungkan dalam satu arah. Double linked list adalah daftar tertaut ganda, jadi dapat melintasi dua arah.
+Dari materi Linked list tesebut saya dapat menyimpulkan linked list merupakan jenis-jenis data berisi kelompok-kelompok data yang disusun secara linear. Dan semua data disimpan dalam satu node yang tersimpan antara satu node dengan node yang lainnya. Dan linked list memiliki dua macam jenis yaitu single linked list dan double linked list. Single linked list adalah daftar yang dihubungkan dalam satu arah. Double linked list adalah daftar tertaut ganda, jadi dapat melintasi dua arah.
 
 ## Referensi
 [1] Moh Erkamim, Lim Abdurrohim , Buku Ajar Algoritma dan Struktur Data. Jambi. SONPEDIA : 2024.
