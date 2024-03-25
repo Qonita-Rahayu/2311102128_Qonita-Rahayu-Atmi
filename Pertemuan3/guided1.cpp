@@ -301,13 +301,3 @@ int main()
     tampil();
     return 0;
 }
-
-/*
-Program ini membuat dan mencoba operasi pada singly linked list. Pada program ini, terdapat menambahkan data,
-menambahkan insert depan,insert belakang, Menghitung jumlah list, Menambahkan insert tengah, menghapus data 
-depan, menghapus data belakang, menghapus data tengah, mengubah data depan, mengubah data tengah, mengubah 
-data belakang, Menghapus semua data dan mampilkan data. Pada program ini, kita bisa melakukan penambahan 
-mengubah dan menghapus dengan cara memanggil fungsi yang telah di buat dan di ikuti oleh parameter fungsi 
-terebut. Pada akhirnya, program akan mencetak isi list tersebut.
-*/
-

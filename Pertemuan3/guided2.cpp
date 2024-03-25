@@ -160,12 +160,3 @@ int main()
         }
     }
     return 0;
-}
-/*
-Program di atas adalah program double linked list non-circular. Pada program ini, pengguna dapat memilih 
-operasi antara membuat linked list baru, menambahkan node baru, mengupdate node yang sudah ada, menghapus 
-semua node, dan menampilkan isi linked list. Pengguna dapat memasukkan data baru untuk membuat linked list 
-baru, atau memasukkan data lama dan baru untuk mengupdate node yang sudah ada. Selain itu, pengguna dapat 
-memilih untuk menghapus semua node pada linked list atau menampilkan isi linked list. Program akan selesai 
-saat pengguna memilih 6 untuk keluar.
-*/
