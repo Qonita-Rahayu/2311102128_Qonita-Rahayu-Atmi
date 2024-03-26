@@ -263,7 +263,7 @@ void display(){
     if (!isEmpty())
     {
         cout << "|-------------------------|" << endl;
-        cout << "|    Nama    |    Usia    |" << endl;
+        cout << "|    Nama    |    Umur    |" << endl;
         cout << "|-------------------------|" << endl;
         while (bantu != NULL)
         {
@@ -278,7 +278,10 @@ void display(){
     }
 }
 int main(){
-    cout << "Program Linked List" << endl;
+    
+    //Untuk inisialisasi
+    init();
+    //Untuk menambahkan data diawali
     insertDepan("Karin", 18);
     insertDepan("Hoshino", 18);
     insertDepan("Akechi", 20);
@@ -286,16 +289,95 @@ int main(){
     insertDepan("Michael", 18);
     insertDepan("Jane", 20);
     insertDepan("John", 19);
-    insertDepan("Ayu", 18);
-    //Untuk menghapus data Akechi
-    hapusTengah(6);
-    //Untuk menambahkan data diantara John dan Jane
-    insertTengah("Futaba", 18, 3);
-    //Untuk menambahkan data diawali
-    insertDepan("Igor", 20);
-    //Untuk mengubah data Michael menjadi Reyn
-    ubahTengah("Reyn", 19, 6);
-    //Untuk menampilkan data
+
+    //Untuk menampilkan data diawali
+    cout << "Data Mahasiswa : " << endl;
     display();
-    
+    cout << endl;
+
+    //Pilihan Menu
+    int pilihan_128;
+    string nama_128;
+    int umur_128;
+    int posisi_128;
+
+    do{
+
+        cout << "Data Mahasiswa :" << endl;
+        cout << "1. Tambahkan Data Mahasiswa" << endl;
+        cout << "2. Hapus Data Mahasiswa" << endl;
+        cout << "3. Update Data Mahasiswa" << endl;
+        cout << "4. Tambahkan Data Mahasiswa Urutan Tertentu" << endl;
+        cout << "5. Hapus Data Mahasiswa Urutan Tertentu" << endl;
+        cout << "6. Hapus Seluruh Data Mahasiswa" << endl;
+        cout << "7. Tampilkan Data Mahasiswa" << endl;
+        cout << "8. Exit" << endl;
+        cout << "Pilihan: ";
+        cin >> pilihan_128;
+
+        switch(pilihan_128){
+            //Menambahkan data
+            case 1:
+                cout << "Masukkan Nama: ";
+                cin >> nama_128;
+                cout << "Masukkan Umur: ";
+                cin >> umur_128;
+                insertDepan(nama_128, umur_128);
+                break;
+            //Menghapus data    
+            case 2:
+                hapusDepan();
+                break;
+            //Mengubah data    
+            case 3:
+                cout << "Masukkan Nama: ";
+                cin >> nama_128;
+                cout << "Masukkan Umur: ";
+                cin >> umur_128;
+                cout << "Masukkan Posisi: ";
+                cin >> posisi_128;
+                ubahDepan(nama_128, umur_128);
+                break;
+            //Menambahkan data di posisi antara   
+            case 4:
+                cout << "Masukkan Nama: ";
+                cin >> nama_128;
+                cout << "Masukkan Umur: ";
+                cin >> umur_128;
+                cout << "Masukkan Posisi: ";
+                cin >> posisi_128;
+                insertTengah(nama_128, umur_128, posisi_128);
+                break;
+            //Menghapus data di posisi antara    
+            case 5:
+                cout << "Masukkan Posisi: ";
+                cin >> posisi_128;
+                cout << "Masukkan Nama Mahasiswa yang akan dihapus: ";
+                cin >> nama_128;
+                cout << "Masukkan Umur Mahsiswa yang akan dihapus: ";
+                cin >> umur_128;
+                hapusTengah(posisi_128);
+                break;
+            //Menghapus semua data    
+            case 6:
+                hapusSemua();
+                break;
+            //Menampilkan semua data    
+            case 7:
+                cout << "Data Mahasiswa" << endl;
+                display();
+                break;
+            //Program selesai    
+            case 8:
+                cout << "Program Selesai" << endl;
+                break;
+            default:
+                cout << "Pilihan Tidak Tersedia" << endl;
+                break;
+        }
+    }
+
+    while(pilihan_128 != 8);
+
+    return 0;   
 }

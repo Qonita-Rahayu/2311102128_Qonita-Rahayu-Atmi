@@ -769,7 +769,7 @@ void display(){
     if (!isEmpty())
     {
         cout << "|-------------------------|" << endl;
-        cout << "|    Nama    |    Usia    |" << endl;
+        cout << "|    Nama    |    Umur    |" << endl;
         cout << "|-------------------------|" << endl;
         while (bantu != NULL)
         {
@@ -784,7 +784,10 @@ void display(){
     }
 }
 int main(){
-    cout << "Program Linked List" << endl;
+    
+    //Untuk inisialisasi
+    init();
+    //Untuk menambahkan data diawali
     insertDepan("Karin", 18);
     insertDepan("Hoshino", 18);
     insertDepan("Akechi", 20);
@@ -792,18 +795,97 @@ int main(){
     insertDepan("Michael", 18);
     insertDepan("Jane", 20);
     insertDepan("John", 19);
-    insertDepan("Ayu", 18);
-    //Untuk menghapus data Akechi
-    hapusTengah(6);
-    //Untuk menambahkan data diantara John dan Jane
-    insertTengah("Futaba", 18, 3);
-    //Untuk menambahkan data diawali
-    insertDepan("Igor", 20);
-    //Untuk mengubah data Michael menjadi Reyn
-    ubahTengah("Reyn", 19, 6);
-    //Untuk menampilkan data
+
+    //Untuk menampilkan data diawali
+    cout << "Data Mahasiswa : " << endl;
     display();
-    
+    cout << endl;
+
+    //Pilihan Menu
+    int pilihan_128;
+    string nama_128;
+    int umur_128;
+    int posisi_128;
+
+    do{
+
+        cout << "Data Mahasiswa :" << endl;
+        cout << "1. Tambahkan Data Mahasiswa" << endl;
+        cout << "2. Hapus Data Mahasiswa" << endl;
+        cout << "3. Update Data Mahasiswa" << endl;
+        cout << "4. Tambahkan Data Mahasiswa Urutan Tertentu" << endl;
+        cout << "5. Hapus Data Mahasiswa Urutan Tertentu" << endl;
+        cout << "6. Hapus Seluruh Data Mahasiswa" << endl;
+        cout << "7. Tampilkan Data Mahasiswa" << endl;
+        cout << "8. Exit" << endl;
+        cout << "Pilihan: ";
+        cin >> pilihan_128;
+
+        switch(pilihan_128){
+            //Menambahkan data
+            case 1:
+                cout << "Masukkan Nama: ";
+                cin >> nama_128;
+                cout << "Masukkan Umur: ";
+                cin >> umur_128;
+                insertDepan(nama_128, umur_128);
+                break;
+            //Menghapus data    
+            case 2:
+                hapusDepan();
+                break;
+            //Mengubah data    
+            case 3:
+                cout << "Masukkan Nama: ";
+                cin >> nama_128;
+                cout << "Masukkan Umur: ";
+                cin >> umur_128;
+                cout << "Masukkan Posisi: ";
+                cin >> posisi_128;
+                ubahDepan(nama_128, umur_128);
+                break;
+            //Menambahkan data di posisi antara   
+            case 4:
+                cout << "Masukkan Nama: ";
+                cin >> nama_128;
+                cout << "Masukkan Umur: ";
+                cin >> umur_128;
+                cout << "Masukkan Posisi: ";
+                cin >> posisi_128;
+                insertTengah(nama_128, umur_128, posisi_128);
+                break;
+            //Menghapus data di posisi antara    
+            case 5:
+                cout << "Masukkan Posisi: ";
+                cin >> posisi_128;
+                cout << "Masukkan Nama Mahasiswa yang akan dihapus: ";
+                cin >> nama_128;
+                cout << "Masukkan Umur Mahsiswa yang akan dihapus: ";
+                cin >> umur_128;
+                hapusTengah(posisi_128);
+                break;
+            //Menghapus semua data    
+            case 6:
+                hapusSemua();
+                break;
+            //Menampilkan semua data    
+            case 7:
+                cout << "Data Mahasiswa" << endl;
+                display();
+                break;
+            //Program selesai    
+            case 8:
+                cout << "Program Selesai" << endl;
+                break;
+            default:
+                cout << "Pilihan Tidak Tersedia" << endl;
+                break;
+        }
+    }
+
+    while(pilihan_128 != 8);
+
+    return 0;   
 }
 ```
 #### Output:
@@ -833,7 +915,7 @@ int main(){
 ![output unguided 1](output_unguided1_6.png)
 
 => Penjelasan program
-- Program di atas adalah program Linked List non-circular yang digunakan untuk menambahkan nama dan umur, lalu melakukan beberapa operasi seperti menambahkan, menghapus, mengubah, dan menambahkan baru di tengah.di program atas terdapat fungsi prosedure yang bisa gunakan untuk melakukan operasi menambahkan menghapus dan mengubah. Pada program ini, data yang dimasukkan terlebih dahulu adalah nama dan umur, lalu diikuti dengan beberapa operasi seperti memasukkan data baru di depan, menghapus data di depan, mengubah data di tengah, dan menambahkan data baru di tengah. Selanjutnya, program menghapus data di tengah kedua, lalu menambahkan data baru di tengah ketiga. Terakhir, program menampilkan daftar semua data yang ada.
+- Program di atas adalah program Linked List non-circular yang digunakan untuk menambahkan nama dan umur, lalu melakukan beberapa operasi seperti menambahkan, menghapus, mengubah, dan menambahkan baru di tengah.di program atas terdapat fungsi prosedure yang bisa gunakan untuk melakukan operasi menambahkan menghapus dan mengubah. Pada program tersebut terdapat menu pilihan yang pertama menambahkan data mahasiswa nama dan umur. Pada program ini dapat memilih menu pilihan yang ingin dilakukan, mulai dari memasukkan nama mahasiswa baru, menghapus nama mahasiswa tertentu, mengudapte nama mahasiswa,hingga menampilkan daftar nama dan umur mahasiswa yang ada. Pada akhir program, pengguna dapat memilih pilihan 8 untuk program selesai.
 
 #### Full code Screenshot:
 ![full code ss unguided 1](fullss_code_unguided1.png)
