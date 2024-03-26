@@ -612,7 +612,7 @@ int hitung_jumlah()
     return jumlah;
 }
 // Untuk menghapus data
-// Prosedure umtuk hapus depan
+// Prosedure untuk hapus depan
 void hapusDepan()
 {
     if (isEmpty() == false)
@@ -842,7 +842,7 @@ int main(){
                 cin >> umur_128;
                 cout << "Masukkan Posisi: ";
                 cin >> posisi_128;
-                ubahDepan(nama_128, umur_128);
+                ubahTengah(nama_128, umur_128, posisi_128);
                 break;
             //Menambahkan data di posisi antara   
             case 4:
