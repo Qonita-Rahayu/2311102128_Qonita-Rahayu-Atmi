@@ -315,11 +315,3 @@ int main()
 
     return 0;
 }
-/*
-Program di atas adalah program untuk menjalankan operasi-operasi dasar terhadap linked list, yaitu membuat linked list, 
-memasukkan data di depan, di belakang, dan di tengah, menghapus data di depan, di belakang, dan di tengah, mengubah data 
-di depan, di belakang, dan di tengah, serta menampilkan isi linked list. Masing-masing operasi dilakukan dengan fungsi 
-yang telah dibuat, yaitu init, insertDepan, insertBelakang, insertTengah, hapusDepan, hapusBelakang, hapusTengah, 
-ubahDepan, ubahBelakang, ubahTengah, dan tampil. Pada fungsi main, program dijalankan secara berurutan dengan 
-menampilkan isi linked list setelah setiap operasi dilakukan.
-*/

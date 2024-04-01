@@ -264,12 +264,3 @@ int main()
     tampil();
     return 0;
 }
-/*
-Program di atas merupakan program sederhana yang menggunakan linked list untuk mencoba operasi-operasi dasar seperti 
-membuat linked list, memasukkan data di depan, di belakang, dan di tengah, menghapus data di depan, di belakang, dan 
-di tengah, serta mengubah data di depan, di belakang, dan di tengah. Dalam program ini, terdapat fungsi-fungsi seperti 
-init, insertDepan, insertBelakang, insertTengah, hapusBelakang, hapusDepan, hapusTengah, ubahDepan, ubahBelakang, 
-ubahTengah, dan tampil yang digunakan untuk melakukan operasi-operasi tersebut. Fungsi main digunakan untuk menjalankan 
-program. Dalam fungsi main, terdapat serangkaian pemanggilan fungsi-fungsi tersebut untuk mencoba operasi-operasi 
-tersebut. Pada program ini, terdapat pemanggil
-*/
