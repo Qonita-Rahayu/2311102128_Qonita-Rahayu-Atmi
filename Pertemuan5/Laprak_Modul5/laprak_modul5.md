@@ -526,4 +526,5 @@ Dari materi Hash Tabel tesebut saya dapat menyimpulkan Hash tabel adalah sebuah 
 
 ## Referensi
 [1] Izhar Rahim, Nizirwan Anwar, Agung Mulyo Widodo, Komparasi Fungsi Hash Md5 Dan Sha256 Dalam Keamanan Gambar Dan Teks. Jakarta : Universitas Esa Unggul, 2023.
+
 [2] Rizki Alif Salman Alfarisy, Perbandingan Kinerja Berbagai Algoritma FungsiHash pada Algoritma Rabin-Karp. Bandung : 2019.
