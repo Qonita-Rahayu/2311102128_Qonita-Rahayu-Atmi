@@ -268,21 +268,24 @@ public:
 int main()
 {
     HashMap employee_map;
+
     // Untuk menambahkan data
     employee_map.insert("Mistah", "1234");
     employee_map.insert("Pastah", "5678");
     employee_map.insert("Ghana", "91011");
+
+    // Untuk mencari dan mencetak phone number
     cout << "Nomer Hp Mistah : "
-    // Untuk mencari nama Mistah dan Pastah
     << employee_map.searchByName("Mistah") << endl;
     cout << "Phone Hp Pastah : "
     << employee_map.searchByName("Pastah") << endl;
-    // Untuk menghapus data Mistah
+
+    // Untuk menghapus data dan mencetak 
     employee_map.remove("Mistah");
     cout << "Nomer Hp Mistah setelah dihapus : "
-    // Untuk mencari data Mistah
     << employee_map.searchByName("Mistah") << endl << endl;
-    // Untuk menampilkan data
+
+    // Untuk mencetak seluruh data tabel hash
     cout << "Hash Table : " << endl;
     employee_map.print();
     return 0;
@@ -293,10 +296,7 @@ int main()
 
 ## Unguided
 
-### 1. [Implementasikan hash table untuk menyimpan data mahasiswa. Setiap mahasiswa memiliki NIM dan nilai. Implementasikan fungsi untuk menambahkan data baru,menghapus data, mencari data berdasarkan NIM, dan mencari data berdasarkan nilai. Dengan ketentuan : 
-- a. Setiap mahasiswa memiliki NIM dan nilai. 
-- b. Program memiliki tampilan pilihan menu berisi poin C.
-- c. Implementasikan fungsi untuk menambahkan data baru, menghapus data,mencari data berdasarkan NIM, dan mencari data berdasarkan rentang nilai (80 – 90).]
+### 1. [Implementasikan hash table untuk menyimpan data mahasiswa. Setiap mahasiswa memiliki NIM dan nilai. Implementasikan fungsi untuk menambahkan data baru,menghapus data, mencari data berdasarkan NIM, dan mencari data berdasarkan nilai. Dengan ketentuan : </br> a. Setiap mahasiswa memiliki NIM dan nilai.</br> b. Program memiliki tampilan pilihan menu berisi poin C.</br> c. Implementasikan fungsi untuk menambahkan data baru, menghapus data, mencari data berdasarkan NIM, dan mencari data berdasarkan rentang nilai (80 – 90).]
 
 ```C++
 #include <iostream>
@@ -415,7 +415,7 @@ void print_128()
 int main()
 {
     // Mendeklarasikan variabel
-    int pilihan;
+    int pilihan_128;
     string NIM_128;
     string nama_128;
     int nilai_128;
@@ -431,9 +431,9 @@ int main()
         cout << "5. Tampilkan data mahasiswa" << endl;
         cout << "6. Keluar" << endl;
         cout << "Pilih: ";
-        cin >> pilihan;
+        cin >> pilihan_128;
 
-        switch (pilihan)
+        switch (pilihan_128)
         {
         // Untuk menambah data mahasiswa
         case 1:
@@ -497,7 +497,7 @@ int main()
         default:
             cout << "Pilihan tidak valid. Silakan coba lagi." << endl;
         }
-    } while (pilihan != 6);
+    } while (pilihan_128 != 6);
 
     return 0;
 }
@@ -515,7 +515,7 @@ int main()
 - Kode di atas adalah kode sederhana untuk menjalankan hash table untuk menyimpan data mahasiswa. Setiap 
 mahasiswa memiliki NIM, nama, dan nilai. Kode ini menyediakan fungsi untuk menambahkan data baru, menghapus 
 data, mencari data berdasarkan NIM, mencari data berdasarkan rentang nilai yaitu 80 sampai 90, dan 
-menampilkan seluruh datanya.
+menampilkan seluruh datanya. Pada saat menambahkan data kita perlu memasukkan nama mahasiswa, NIM mahasiswa, dan nilai mahasiswa. Lalu, saat menghapus data mahasiswa kita hanya memerlukan NIM mahasiswa agar dapat dihapus. Saat, mencari data mahasiswa berdasarkan NIM kita hanya perlu menginputkan NIM mahasiswa. Pada, saat mencari data mahasiswa berdasarkan rentang nilai 80-90 kita tinggal memanggilnya apakah terdapat nilai pada rentang 80-90. Dan terakhir, kita menampilkan seluruh data mahasiswa.
 
 #### Full code Screenshot:
 ![full code ss unguided 1](fullss_code_unguided1.png)
@@ -525,5 +525,5 @@ menampilkan seluruh datanya.
 Dari materi Hash Tabel tesebut saya dapat menyimpulkan Hash tabel adalah sebuah fungsi yang mengembalikan array yang digunakan . Hash tabel merupakan struktur data yang terdiri dari tabel dan fungsi, yang tujuannya adalah memetakan nilai kunci  unik  setiap record  (baris) ke nomor (hash) posisi record  dalam  tabel. Setiap sel yang mengisi baris  dan kolom  tabel hash tempat data diarsipkan disebut slot. Dan memiliki fungsi hash tabel untuk memetakan data dengan ukuran sembarang ke data dengan  ukuran tertentu. Lalu memiliki operasi insertion digunakan untuk melakukan operasi memasukkan data baru ke dalam tabel hash, deletion digunakan untuk menghapus data dari tabel hash berdasarkan kunci atau indeks, serching digunakan untuk mencari data dalam tabel hash berdasarkan kunci atau indeks, update digunakan untuk melakukann operasi untuk mengubah nilai suatu data yang sudah ada di tabel hash, dan traversal digunakan untuk melakukan iterasi melalui tabel hash , untuk memproses semua data yang terdapat dalam tabel.
 
 ## Referensi
-[1] Izhar Rahim, Nizirwan Anwar, Agung Mulyo Widodo, Komparasi Fungsi Hash Md5 Dan Sha256 Dalam Keamanan Gambar Dan Teks. Universitas Esa Unggul : 2023.
+[1] Izhar Rahim, Nizirwan Anwar, Agung Mulyo Widodo, Komparasi Fungsi Hash Md5 Dan Sha256 Dalam Keamanan Gambar Dan Teks. Jakarta : Universitas Esa Unggul, 2023.
 [2] Rizki Alif Salman Alfarisy, Perbandingan Kinerja Berbagai Algoritma FungsiHash pada Algoritma Rabin-Karp. Bandung : 2019.

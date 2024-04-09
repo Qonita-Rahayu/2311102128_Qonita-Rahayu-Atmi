@@ -99,21 +99,24 @@ public:
 int main()
 {
     HashMap employee_map;
+
     // Untuk menambahkan data
     employee_map.insert("Mistah", "1234");
     employee_map.insert("Pastah", "5678");
     employee_map.insert("Ghana", "91011");
+
+    // Untuk mencari dan mencetak phone number
     cout << "Nomer Hp Mistah : "
-    // Untuk mencari nama Mistah dan Pastah
     << employee_map.searchByName("Mistah") << endl;
     cout << "Phone Hp Pastah : "
     << employee_map.searchByName("Pastah") << endl;
-    // Untuk menghapus data Mistah
+
+    // Untuk menghapus data dan mencetak 
     employee_map.remove("Mistah");
     cout << "Nomer Hp Mistah setelah dihapus : "
-    // Untuk mencari data Mistah
     << employee_map.searchByName("Mistah") << endl << endl;
-    // Untuk menampilkan data
+
+    // Untuk mencetak seluruh data tabel hash
     cout << "Hash Table : " << endl;
     employee_map.print();
     return 0;

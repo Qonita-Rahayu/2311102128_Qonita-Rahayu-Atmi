@@ -114,7 +114,7 @@ void print_128()
 int main()
 {
     // Mendeklarasikan variabel
-    int pilihan;
+    int pilihan_128;
     string NIM_128;
     string nama_128;
     int nilai_128;
@@ -130,9 +130,9 @@ int main()
         cout << "5. Tampilkan data mahasiswa" << endl;
         cout << "6. Keluar" << endl;
         cout << "Pilih: ";
-        cin >> pilihan;
+        cin >> pilihan_128;
 
-        switch (pilihan)
+        switch (pilihan_128)
         {
         // Untuk menambah data mahasiswa
         case 1:
@@ -196,7 +196,7 @@ int main()
         default:
             cout << "Pilihan tidak valid. Silakan coba lagi." << endl;
         }
-    } while (pilihan != 6);
+    } while (pilihan_128 != 6);
 
     return 0;
 }
