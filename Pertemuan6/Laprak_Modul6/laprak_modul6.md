@@ -30,7 +30,7 @@ Operasi dasar yang dapat dilakukan terhadap sebuah Stack, berikut adalah beberap
 
 ## Guided 
 
-### 1. [ HashTabel dengan Array Dinamis Tabel ]
+### 1. [ Operasi pada Stack ]
 
 ```C++
 #include <iostream>
@@ -266,7 +266,7 @@ int main()
 ![output unguided 1](output_unguided1_2.png)
 
 => Penjelasan program
-- pada code di atas merupakan code untuk mengecek apakah sebuah kata tersebut adalah sebuah palindrom atau buka,pada awal melakukan inisialisasi kan stack dan membuat perulangan for untuk memecah kata-kata dan percabangan untuk mengecek apakah sebuah kata tersebut merupakan palindrom atau bukan. selanjutnya mengecek apakah kata pada stack top sama dengan kata awal atau tidak. dan jika iya maka akan mengeluarkan kata itu ke variable kata. dam jika tidak maka akan memberikan output false
+- Pada code di atas merupakan code untuk mengecek apakah sebuah kata tersebut adalah sebuah palindrom atau buka,pada awal melakukan inisialisasi kan stack dan membuat perulangan for untuk memecah kata-kata dan percabangan untuk mengecek apakah sebuah kata tersebut merupakan palindrom atau bukan. selanjutnya mengecek apakah kata pada stack top sama dengan kata awal atau tidak. dan jika iya maka akan mengeluarkan kata itu ke variable kata. dam jika tidak maka akan memberikan output false
 #### Full code Screenshot:
 ![full code ss unguided 1](fullss_code_unguided1.png)
 
@@ -330,7 +330,7 @@ int main() {
 ![output unguided 2](output_unguided2.png)
 
 => Penjelasan program
-- pada code diatas merupakan code unutk membalikan kata yang dimana awalnya kita menginisialisasikan stack dan membuat perulangan yang digunakan untuk memecah kata-kata dan percabangan untuk mengecek apakah terdapat
+- Pada code diatas merupakan code unutk membalikan kata yang dimana awalnya kita menginisialisasikan stack dan membuat perulangan yang digunakan untuk memecah kata-kata dan percabangan untuk mengecek apakah terdapat
 sebuah spasi atau tidak jika ada maka push ke stack dan jika tidak maka tambahkan ke variable kata. selanjutnya mengirimkan kata terakhir ke variable kata. selanjutnya membuat variabel kalimat terbalik, 
 membuat perulangan while untuk mengecek apakah stack kosong atau tidak jika tidak kosong mengambil kata dari stack dan membalik urutan kata. selanjutnya perulangan for untuk membalik urutan kata yang ada pada top stack.
 selanjutnya menambahkan kata ke variable kalimat terbalik dan mengeluarkan stack. dan mengembalikan kalimat terbalik
