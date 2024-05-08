@@ -6,7 +6,7 @@ A. Pengertian Stack
 - Stack merupakan sebuah kumpulan elemen atau tumpukan yang hanya dapat ditambah dan atau dihapus dari satu ujung yang sama, seolah-olah bertumpuk yang dapat   diartikan   sebagai suatu kumpulan data yang seolah-olah ada data yang diletakkan di atas data yang lain. Stack memiliki sifat LIFO (Last In First Out) berarti elemen-elemen terakhir yang masuk akan pertama kali keluar yang direpresentasikan. Jadi, LIFO (last in first out) adalah sesuatu yang terakhir masuk dalam stack akan menjadi sesuatu pertama yang dikeluarkan dari stack.
 
 B. Operasi Stack
-Operasi dasar yang dapat dilakukan terhadap sebuah Stack, berikut adalah beberapa operasi umum pada stack:
+- Operasi dasar yang dapat dilakukan terhadap sebuah Stack, berikut adalah beberapa operasi umum pada stack:
 1. Push (Masukan)
 - Operasi Push adalah untuk memasukkan sebuah nilai atau data ke dalam stack. Sebelum sebuah nilai atau data dimasukkan ke dalam stack, prosedur ini terlebih dahulu akan menaikkan posisi TOP satu level ke atas.Operasi Push memasukkan elemen ke dalam suatu Stack, jika Stack belum mencapai Max. Operasi Push akan memasukkan sebuah elemen ke salah satu stack. Operasi ini berfungsi memasukkan sebuah elemen ke salah satu stack dan untuk menambahkan item pada tumpukan paling atas. 
 2. Pop (Keluarkan)
