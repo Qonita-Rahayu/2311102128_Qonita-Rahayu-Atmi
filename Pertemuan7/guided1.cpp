@@ -99,15 +99,24 @@ void viewQueue()
 }
 int main()
 {
+    // Untuk menambahkan data pada antrian
     enqueueAntrian("Andi");
     enqueueAntrian("Maya");
+    // Untuk melihat semua data pada antrian
     viewQueue();
+    // Untuk menghitung semua data teller pada antrian
     cout << "Jumlah antrian = " << countQueue() << endl;
+    // Untuk mengeluarkan data pada antrian
     dequeueAntrian();
+    // Untuk melihat semua data pada antrian
     viewQueue();
+    // Untuk menghitung semua data teller pada antrian
     cout << "Jumlah antrian = " << countQueue() << endl;
+    // Untuk menghapus semua data pada antrian
     clearQueue();
+    // Untuk melihat semua data pada antrian
     viewQueue();
+    // Untuk menghitung semua data teller pada antrian
     cout << "Jumlah antrian = " << countQueue() << endl;
     return 0;
 }
