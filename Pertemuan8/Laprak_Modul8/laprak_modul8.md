@@ -310,7 +310,7 @@ int main()
 ![output unguided 2](output_unguided2.png)
 
 => Penjelasan program
-- Pada code di atas merupakan code sequential search untuk menghitung semua total huruf vokal pada sebuah kalimat. Pada code tersebut terdapat sebuah variable kalimat dan countvocal untuk menampung sebuah data kalimat yang nati di inputkan dan menampung jumlah huruf vokal nanti yang akan bertama nilainya, selanjutnya memasukan kalimat yang akan di cari, setelah menginputkan kalimat tersebut akan dilakukan perulangan untuk mencocokkan huruf vokal pada kalimat yang di inputkan. Jika di temukan huruf vokal maka nilai variable countvocal akan bertamah 1 dan seterusnya sampai tidak di tmeukan kembali huruf vocal jika sudah tidak ada huruf vokal lagi yang di temukan lagi makan akan di tampilkan keseluruhan jumlah huruf vokalnya.
+- Pada code di atas merupakan code program sequential search untuk menghitung semua total huruf vokal pada sebuah kalimat. Pada code tersebut terdapat sebuah variable kalimat dan countvocal untuk menampung sebuah data kalimat yang nati di inputkan dan menampung jumlah huruf vokal nanti yang akan bertama nilainya, selanjutnya memasukan kalimat yang akan di cari, setelah menginputkan kalimat tersebut akan dilakukan perulangan untuk mencocokkan huruf vokal pada kalimat yang di inputkan. Jika di temukan huruf vokal maka nilai variable countvocal akan bertamah 1 dan seterusnya sampai tidak di tmeukan kembali huruf vocal jika sudah tidak ada huruf vokal lagi yang di temukan lagi makan akan di tampilkan keseluruhan jumlah huruf vokalnya.
 
 #### Full code Screenshot:
 ![full code ss unguided 2](thefullss_code_unguided2.png)
