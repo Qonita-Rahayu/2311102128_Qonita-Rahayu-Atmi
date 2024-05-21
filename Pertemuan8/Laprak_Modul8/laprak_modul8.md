@@ -26,7 +26,7 @@ ada.
 B. BINARY SEARCH
 - Binary search adalah proses pencarian dengan membagi dua bagian data kemudian membandingkan isi data bagian pertama atau bagian kedua dengan data yang akan dicari. Pada metode ini membutuhkan nilai indeks terkecil dan terbesar untuk dijumlahkan kemudian dibagi dua. Binary search hanya dapat dilakukan pada data yang sudah urut. Binary ini lebih efisien dibandingkan dengan metode pencarian sequential search atau pencarian beruntun. Pencarian Biner sebagai algoritma pencarian yang digunakan dalam array yang diurutkan dengan berulang kali membagi interval pencarian menjadi dua. Ide pencarian biner adalah menggunakan informasi bahwa array diurutkan dan mengurangi kompleksitas waktu ke O (log N).
 
-- Cara kerja binary search adalah sebagai berikut:
+- Langkah-langkah binary search adalah sebagai berikut:
 1. Diambil posisi awal 1 dan posisi akhir = N, kemudian dicari posisi data tengah dengan rumus (posisi awal + posisi akhir) / 2.
 2. Data yang dicari dibandingkan dengan data tengah. Jika lebih kecil, proses dilakukan kembali tetapi posisi akhir dianggap sama dengan posisi tengah – 1. Jika lebih besar, porses dilakukan kembali tetapi posisi awal dianggap sama dengan posisi tengah + 1.
 3. Demikian seterusnya sampai data tengah sama dengan yang dicari.
@@ -182,8 +182,8 @@ int main()
 
 ```
 => Penjelasan program
-- Pada code di atas merupakan sebuah program untuk binary search mencari nilai angka.
-Pada code di atas terdapat sebuah variable berbentuk array untuk menampung sebuah data dan variable untuk nilai cari selanjutnya terdapat dua fungsi yaitu yang pertama selection sort yang digunakan unutuk mengurutkan sebuah data yang di dalam array dari terkecil ke yang terbesar menggunakan perulangan, selanjutnya terdapat sebuah fungsi binary search yang dimana digunakan untuk mencari sebuah nilai angka yang dimana terdapat variable awal akhir tengah bflag dengan nilai false, dan terdapat sebuah perulangan while yang didalamnya terdapat percabangan ketika data ditemukan di indeks tengah maka akan true, ketika data di temukan pada awal maka indeksnya di tambah 1 dan ketika data di temukan di akhir maka indeks di kurangi 1.
+- Pada code di atas merupakan sebuah program sederhana binary search untuk mencari nilai angka.
+Pada code di atas terdapat sebuah variable berbentuk array untuk menampung sebuah data dan variable untuk nilai cari selanjutnya terdapat dua fungsi yaitu yang pertama selection sort yang digunakan unutuk mengurutkan sebuah data yang di dalam array dari terkecil ke yang terbesar menggunakan perulangan, selanjutnya terdapat sebuah fungsi binary search yang dimana digunakan untuk mencari sebuah nilai angka yang dimana terdapat variable awal akhir tengah bflag dengan nilai false, dan terdapat sebuah perulangan while yang di dalamnya terdapat percabangan ketika data ditemukan di indeks tengah maka akan true, ketika data di temukan pada awal maka indeksnya di tambah 1 dan ketika data di temukan di akhir maka indeks di kurangi 1.
 Selanjutnya terdapat percabangan yang dimana ketika nilai angka yang di cari di temukan maka akan menampilkan data pada indeks keberapa. Dan pada fungsi utama terdapat sebuah perulangan untuk menampilkan sebuah data dan selanjutnya menginputkan nilai cari dan memanggil fungsi selection sort untuk mengurutkan data yang di tampilkan dengan perulangan sebelumnya selanjutnya data di tampilkan kembali dengan perulangan dari terkecil ke terbesar dan selanjutnya gunakan fungsi binary search untuk mencari nilai cari pada data tersebut.
 
 ## Unguided
@@ -373,7 +373,7 @@ int main()
 
 ## Kesimpulan
 
-Dari materi Algoritma Searching tesebut saya dapat menyimpulkan Algoritma Searching adalah sebuah teknik mengambil data dari kumpulan data berdasarkan kunci (key) atau referensi data dan engan memiliki langkah-langkah yang tertentu yang akan mencari suatu data dengan kunci tersebut. Algoritma searching memiliki dua macam jenis yaitu yang pertama Sequential search adalah sebuah teknik atau metode pencarian paling sederhana dan merupakan teknik pencarian dari sebauh data array, dalam data dalam array dibaca satu per satu, dan data akan diurutkan dari index yang paling terkecil ke index yang paling terbesar, ataupun sebaliknya. Dan yang kedua yaitu Binary search adalah proses pencarian dengan membagi dua bagian data kemudian membandingkan isi data bagian pertama atau bagian kedua dengan data yang akan dicari. Pada metode ini membutuhkan nilai indeks terkecil dan terbesar untuk dijumlahkan kemudian dibagi dua yang hanya dapat dilakukan pada data yang sudah urut.
+Dari materi Algoritma Searching tesebut saya dapat menyimpulkan Algoritma Searching adalah sebuah teknik mengambil data dari kumpulan data berdasarkan kunci (key) atau referensi data dan engan memiliki langkah-langkah yang tertentu yang akan mencari suatu data dengan kunci tersebut. Algoritma searching memiliki dua macam jenis yaitu yang pertama Sequential search adalah sebuah teknik atau metode pencarian paling sederhana dan merupakan teknik pencarian dari sebauh data array, dalam data dalam array dibaca satu per satu, dan data akan diurutkan dari index yang paling terkecil ke index yang paling terbesar, ataupun sebaliknya. Dan yang kedua yaitu Binary search adalah proses pencarian dengan membagi dua bagian data kemudian membandingkan isi data bagian pertama atau bagian kedua dengan data yang akan dicari. Pada binary search ini membutuhkan nilai indeks terkecil dan terbesar untuk dijumlahkan kemudian dibagi dua yang hanya dapat dilakukan pada data yang sudah urut.
 
 ## Referensi
 [1] Fitri Yanti, Emi Sita Eriana, ALGORITMA SORTING DAN SEARCHING . Jawa Tengah : 2024.
