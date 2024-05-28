@@ -10,60 +10,60 @@ Graph adalah suatu graph yang terdiri dari suatu himpunan tak kosong yang masing
 
 - Graph memiliki beberapa jenis-jenis, berikut jenis-jenis dari graph:
 
-a. Graph berarah (directed graph)
+- a. Graph berarah (directed graph)
 Graph berarah (directed graph) adalah graph yang setiap sisinya diberikan orientasi arah . Pada graf berarah, (u,v) dan (v,u) menyatakan sisi berarah yang berbeda, dengan kata  lain (u,v)≠(v,u). Untuk sisi berarah  (u,v),  simpul  u  dinamakan simpul  asal dan  simpul  v dinamakan simpul terminal.Grafik  terarah  (atau  digraf  singkatnya)  G  terdiri  dari  satu  set simpul V  =  {v1, v2, . . .}, satu set tepi E  =  {e1, e2,  . . .}, dan pemetaan Ψ yang memetakan setiap tepi ke beberapa pasangan simpul yang dipesan (vi, vj).
 
-b. Graph tak berarah (undirected graph)
+- b. Graph tak berarah (undirected graph)
 Graph tak berarah (undirected graph) adalah graph yang sisinya tidak mempunyai orientasi arah. Dan pada graph tak berarah urutan pasangan simpul yang dihubungkan oleh sisi tidak diperhatikan. Jadi, (u,v)=(v,u) adalah sisi yang sama. 
 
-c. Weight Graph
+- c. Weight Graph
 Weight Graph adalah setiap busur yang mempunyai nilai yang menyatakan hubungan antara dua buah simpul, maka busur tersebut dinyatakan memiliki bobot. Bobot sebuah busur dapat menyatakan panjang sebuah jalan dari dua buah titik, jumlah rata-rata kendaraan per hari yang melalui sebuah jalan, dan lain-lain.
 
 - Istilah pada graph, yaitu:
 
-a. Vertex : Vertex adalah himpunan node atau titik pada suatu graph.
+- a. Vertex : Vertex adalah himpunan node atau titik pada suatu graph.
 
-b. Edge : Edge adalah himpunan garis yang menghubungkan setiap
+- b. Edge : Edge adalah himpunan garis yang menghubungkan setiap
 node atau vertex.
 
-c. Adjacent : Adjacent adalah dua buah titik dikatakan berdekatan jika keduanya terhubung dengan sebuah sisi. 
+- c. Adjacent : Adjacent adalah dua buah titik dikatakan berdekatan jika keduanya terhubung dengan sebuah sisi. 
 
-d. Weight : Weight adalah sebuah graph berbobot apabila terdapat sebuah fungsi bobot bernilai real W pada himpunan E.
+- d. Weight : Weight adalah sebuah graph berbobot apabila terdapat sebuah fungsi bobot bernilai real W pada himpunan E.
 
-e. Path : Path merupakan jalur dengan setiap vertex berbeda.
+- e. Path : Path merupakan jalur dengan setiap vertex berbeda.
 
-f. Cycle : Cycle adalah sebuah lintasan yang berawal dan berakhir pada simpul yang sama.
+- f. Cycle : Cycle adalah sebuah lintasan yang berawal dan berakhir pada simpul yang sama.
 
 2. Tree atau Pohon
 Tree  atau pohon adalah salah satu jenis struktur data yang terdiri dari simpul-simpul (nodes) yang saling terhubung (edges) satu sama lain secara hierarkis. Dan nodes dalam implementasinya dapat merepresentasikan data, sementara edges adalah jalan atau lintasan yang menghubungkan antara nodes. Jadi, tree dapat digunakan  untuk merepresentasikan data yang memiliki hierarkis seperti struktur perusahaan, struktur keluarga,  struktur direktori pada sistem file komputer atau permasalahan lain yang melibatkan pembagian dan percabangan.
 
 - Istilah dalam struktur data pada tree atau pohon, yaitu:
 
-a. Predecessor : Predecessor adalah sebuah node yang berada di atas node tertentu.
+- a. Predecessor : Predecessor adalah sebuah node yang berada di atas node tertentu.
 
-b. Successor : Successor adalah sebuah node yang berada di bawah node tertentu. 
+- b. Successor : Successor adalah sebuah node yang berada di bawah node tertentu. 
 
-c. Ancestor : Ancestor adalah semua dari node yang terletak sebelum node tertentu pada jalur yang sama pada node. 
+- c. Ancestor : Ancestor adalah semua dari node yang terletak sebelum node tertentu pada jalur yang sama pada node. 
 
-d. Descendent : Descendent adalah semua dari node yang terletak setelah node tertentu pada jalur yang sama pada node.
+- d. Descendent : Descendent adalah semua dari node yang terletak setelah node tertentu pada jalur yang sama pada node.
 
-e. Parent: Parent merupakan node yang memiliki satu atau lebih edge di bagian bawahnya. 
+- e. Parent: Parent merupakan node yang memiliki satu atau lebih edge di bagian bawahnya. 
 
-f. Child: Child merupakan node pada pohon atau tree yang hanya memiliki satu edges pada  bagian  atasnya.  Jadi, pada suatu node  tertentu  dapat  dianggap sebagai parent ataupun child berdasarkan sudut pandangnya. 
+- f. Child: Child merupakan node pada pohon atau tree yang hanya memiliki satu edges pada  bagian  atasnya.  Jadi, pada suatu node  tertentu  dapat  dianggap sebagai parent ataupun child berdasarkan sudut pandangnya. 
 
-g. Sibling : Sibling adalah node yang mempunyai father yang sama dengan suatu node.
+- g. Sibling : Sibling adalah node yang mempunyai father yang sama dengan suatu node.
 
-h. Subtree: Subtree  merupakan node-node pada pohon atau tree  yang  memiliki  child, dan node tersebut dapat dianggap sebagai root dalam  subtree. 
+- h. Subtree: Subtree  merupakan node-node pada pohon atau tree  yang  memiliki  child, dan node tersebut dapat dianggap sebagai root dalam  subtree. 
 
-i. Size : Size adalah banyaknya node dalam sebuah tree.
+- i. Size : Size adalah banyaknya node dalam sebuah tree.
 
-j. Height : Height adalah banyaknya tingkatan atau level dalam suatu tree.
+- j. Height : Height adalah banyaknya tingkatan atau level dalam suatu tree.
 
-k. Roof: Roof adalah satu-satunya node khusus dalam tree yang tidak memiliki predecssor.
+- k. Roof: Roof adalah satu-satunya node khusus dalam tree yang tidak memiliki predecssor.
 
-l. Leaf: Leaf  adalah  suatu node yang  paling terakhir dalam  suatu pohon atau tree, dan left tidak memiliki edge lagi pada bagian bawahnya. 
+- l. Leaf: Leaf  adalah  suatu node yang  paling terakhir dalam  suatu pohon atau tree, dan left tidak memiliki edge lagi pada bagian bawahnya. 
 
-m. Degree : Degree adalah banyaknya anak yang dimiliki suatu
+- m. Degree : Degree adalah banyaknya anak yang dimiliki suatu
 node. 
 
 - Binary Tree
@@ -74,25 +74,26 @@ child. Binary tree merupakan sebuah ordered tree yang memiliki 3 sifat utama, ya
 3. Node left child selalu dikunjungi lebih awal daripadanode right child.
 
 - Operasi pada Tree atau Pohon, yaitu:
-a. Create : Create digunakan untuk membentuk suatu binary tree baru yang masih kosong atau tidak ada isinya.
 
-b. Clear : Clear digunakan untuk mengosongkan suatu binary tree yang sudah ada atau sudah terisi.
+- a. Create : Create digunakan untuk membentuk suatu binary tree baru yang masih kosong atau tidak ada isinya.
 
-c. isEmpty : isEmpty dalah function yang digunakan untuk memeriksa apakah suatu binary tree masih kosong atau tidak.
+- b. Clear : Clear digunakan untuk mengosongkan suatu binary tree yang sudah ada atau sudah terisi.
 
-d. Insert : Insert digunakan untuk memasukkan sebuah node ke dalam tree.
+- c. isEmpty : isEmpty dalah function yang digunakan untuk memeriksa apakah suatu binary tree masih kosong atau tidak.
 
-e. Find : Find digunakan untuk mencari suatu root, parent, left child, atau right child dari suatu node, dan tree tak boleh kosong atau harus terisi.
+- d. Insert : Insert digunakan untuk memasukkan sebuah node ke dalam tree.
 
-f. Update : Update digunakan untuk mengubah isi dari suatu node yang ditunjuk oleh sebuah pointer current, dan tree tidak boleh kosong atau harus terisi.
+- e. Find : Find digunakan untuk mencari suatu root, parent, left child, atau right child dari suatu node, dan tree tak boleh kosong atau harus terisi.
 
-g. Retrive : : Retrive digunakan untuk mengetahui isi dari suatu node yang ditunjuk oleh pointer current, dan tree tidak boleh kosong.
+- f. Update : Update digunakan untuk mengubah isi dari suatu node yang ditunjuk oleh sebuah pointer current, dan tree tidak boleh kosong atau harus terisi.
 
-h. Delete Sub : Delete Sub digunakan untuk menghapus suatu subtree pada node beserta seluruh descendantnya yang ditunjuk current, dan tree tak boleh kosong. Kemudian, pointer current akan berpindah ke parent dari node yang dihapus.
+- g. Retrive : : Retrive digunakan untuk mengetahui isi dari suatu node yang ditunjuk oleh pointer current, dan tree tidak boleh kosong.
 
-i. Characteristic : Characteristic digunakan untuk mengetahui karakteristik dari sebuah tree, yaitu  size, height, serta average lengthnya dan tree tidak boleh kosong. 
+- h. Delete Sub : Delete Sub digunakan untuk menghapus suatu subtree pada node beserta seluruh descendantnya yang ditunjuk current, dan tree tak boleh kosong. Kemudian, pointer current akan berpindah ke parent dari node yang dihapus.
 
-j. Traverse : Traverse digunakan untu mengunjungi seluruh node-node pada tree dalam urutan tertentu, masing-masing sekali. Dan hasilnya adalah urutan dari informasi secara linier yang tersimpan dalam tree. Terdapat 3 metode traversal ini yakni Pre-Order, In-Order, dan Post-Order, yaitu:
+- i. Characteristic : Characteristic digunakan untuk mengetahui karakteristik dari sebuah tree, yaitu  size, height, serta average lengthnya dan tree tidak boleh kosong. 
+
+- j. Traverse : Traverse digunakan untu mengunjungi seluruh node-node pada tree dalam urutan tertentu, masing-masing sekali. Dan hasilnya adalah urutan dari informasi secara linier yang tersimpan dalam tree. Terdapat 3 metode traversal ini yakni Pre-Order, In-Order, dan Post-Order, yaitu:
 1. Pre-Order : Untuk mencetak isi dari node yang dikunjungi,
 kunjungi Left Child, kunjungi Right Child.
 2. In-Order : Untuk mengunjungi Left Child, cetak isi node yang dikunjungi, kunjungi Right Child.
